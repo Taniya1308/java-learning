@@ -8,23 +8,25 @@ public class Practice {
     }
 }
 
-// Test type conversion
-public class Practice{
-    public static void main(String[] args){
-        int number = 10;
-        double decimal = number;
+// // Test type conversion
 
-        System.out.println(decimal);
-    }
-}
+// public class Practice1 {
+//     public static void main(String[] args){
+//         int number = 10;
+//         double decimal = number;
 
-// Test var
-public class Practice{
-    public static void main(String[] args){
-        var age = 21;
-    var name = "Tannu";
+//         System.out.println(decimal);
+//     }
+// }
 
-    System.out.println("Age: " + age);
-    System.out.println("Name: " + name);
-    }
-}
+// // Test var
+
+// public class Practice2 {
+//     public static void main(String[] args){
+//         var age = 21;
+//     var name = "Tannu";
+
+//     System.out.println("Age: " + age);
+//     System.out.println("Name: " + name);
+//     }
+// }
