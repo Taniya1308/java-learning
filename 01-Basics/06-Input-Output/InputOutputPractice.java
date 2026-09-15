@@ -239,22 +239,114 @@
 
 
 // Level-4 = Output Formatting
-// Student Details
+// // Student Details
+// import java.util.Scanner;
+// public class InputOutputPractice{
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
+
+//         System.out.println("Enter name, age, and marks: ");
+//         String name = sc.nextLine();
+//         int age = sc.nextInt();
+//         double marks = sc.nextDouble();
+
+//         System.out.println();
+//         System.out.println("Student Details");
+//         System.out.println("Name: " + name);
+//         System.out.println("Age: " + age);
+//         System.out.println("Marks: " + marks);
+//         sc.close();
+//     }
+// }
+
+
+// // Formatted Price
+// import java.util.Scanner;
+// public class InputOutputPractice{
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
+
+//         System.out.println("Enter price: ");
+//         double price = sc.nextDouble();
+
+//         System.out.printf("%.2f",price);
+//         sc.close();
+//     }
+// }
+
+
+// Level-5 = combined Practice
+// // Even or odd
+// import java.util.Scanner;
+// public class InputOutputPractice{
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
+
+//         System.out.println("Enter an integer: ");
+//         int num = sc.nextInt();
+
+//         if(num%2 == 0){
+//             System.out.println("Even");
+//         }else{
+//             System.out.println("Odd");
+//         }
+//         sc.close();
+//     }
+// }
+
+
+// // largest of two numbers
+// import java.util.Scanner;
+// public class InputOutputPractice{
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
+
+//         System.out.println("Enter two numbers: ");
+//         int a = sc.nextInt();
+//         int b = sc.nextInt();
+
+//         int largest = (a>b) ? a : b;
+
+//         System.out.println("Largest of two numbers is: " + largest);
+//         sc.close();
+//     }
+// }
+
+
+// // Largest of three numbers
+// import java.util.Scanner;
+// public class InputOutputPractice{
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
+
+//         System.out.println("Enter three numbers: ");
+//         int a = sc.nextInt();
+//         int b = sc.nextInt();
+//         int c = sc.nextInt();
+
+//         int largest = (a > b) ? ((a > c) ? a : c) : ((b > c) ? b : c);
+
+//         System.out.println("Largest of three numbers: " + largest);
+//         sc.close();
+//     }
+// }
+
+
+// Swap two numbers
 import java.util.Scanner;
 public class InputOutputPractice{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter name, age, and marks: ");
-        String name = sc.nextLine();
-        int age = sc.nextInt();
-        double marks = sc.nextDouble();
+        System.out.println("Enter two numbers: ");
+        int a = sc.nextInt();
+        int b = sc.nextInt();
 
-        System.out.println();
-        System.out.println("Student Details");
-        System.out.println("Name: " + name);
-        System.out.println("Age: " + age);
-        System.out.println("Marks: " + marks);
+        a = a + b;
+        b = a - b;
+        a = a - b;
+
+        System.out.println("Swapped number is: " + a + " " + b);
         sc.close();
     }
 }
