@@ -404,26 +404,26 @@
 // }
 
 
-// input a character
-import java.util.Scanner;
-public class ConditionalStatementPractice{
-    public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a character: ");
-        char ch = sc.next().charAt(0);
-        switch(ch){
-            case 'A':
-                System.out.println("Apple");
-                break;
-            case 'B':
-                System.out.println("Banana");
-                break;
-            case 'C':
-                System.out.println("Cat");
-                break;
-            default:
-                System.out.println("Invalid Choice");
-        }
-        sc.close();
-    }
-}
+// // input a character
+// import java.util.Scanner;
+// public class ConditionalStatementPractice{
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Enter a character: ");
+//         char ch = sc.next().charAt(0);
+//         switch(ch){
+//             case 'A':
+//                 System.out.println("Apple");
+//                 break;
+//             case 'B':
+//                 System.out.println("Banana");
+//                 break;
+//             case 'C':
+//                 System.out.println("Cat");
+//                 break;
+//             default:
+//                 System.out.println("Invalid Choice");
+//         }
+//         sc.close();
+//     }
+// }

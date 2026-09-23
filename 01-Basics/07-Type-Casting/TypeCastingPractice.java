@@ -73,10 +73,12 @@
 // } 
 
 
-public class TypeCastingPractice{
-    public static void main(String[] args){
-        int x = 66;
-        char ch = (char)x;
-        System.out.println(ch);
-    }
-} 
+// public class TypeCastingPractice{
+//     public static void main(String[] args){
+//         int x = 66;
+//         char ch = (char)x;
+//         System.out.println(ch);
+//     }
+// } 
+
+

@@ -332,21 +332,21 @@
 // }
 
 
-// Swap two numbers
-import java.util.Scanner;
-public class InputOutputPractice{
-    public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
+// // Swap two numbers
+// import java.util.Scanner;
+// public class InputOutputPractice{
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter two numbers: ");
-        int a = sc.nextInt();
-        int b = sc.nextInt();
+//         System.out.println("Enter two numbers: ");
+//         int a = sc.nextInt();
+//         int b = sc.nextInt();
 
-        a = a + b;
-        b = a - b;
-        a = a - b;
+//         a = a + b;
+//         b = a - b;
+//         a = a - b;
 
-        System.out.println("Swapped number is: " + a + " " + b);
-        sc.close();
-    }
-}
+//         System.out.println("Swapped number is: " + a + " " + b);
+//         sc.close();
+//     }
+// }
